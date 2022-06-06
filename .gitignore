@@ -1,0 +1,4 @@
+/venv
+/.idea
+/pgdata
+/.pytest_cache
