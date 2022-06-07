@@ -5,8 +5,8 @@
 # Установка приложения
 ## Запуск контейнера с проектом:
 ```bash
-$ git clone https://github.com/DarinaStepanova/vvit.git
-$ cd vvit
+$ git clone https://github.com/DarinaStepanova/finaly_vvit.git
+$ cd finaly_vvit
 $ docker build . -t docker_siz
 $ docker run -p 0.0.0.0:8888:8888 -p 0.0.0.0:8889:8889 docker_siz
 ```
