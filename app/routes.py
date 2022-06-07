@@ -35,4 +35,4 @@ def redirect():
         return "Нет результата"
     else:
         is_video, source = last_image
-        return render_template('show.html', image=source, show_img=True, video = is_video) #указываем путь к изображению которое хотим показать
+        return render_template('show.html', image=source, show_img=True, video=is_video) #указываем путь к изображению которое хотим показать
